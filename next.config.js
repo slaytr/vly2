@@ -16,6 +16,7 @@ if (typeof require !== 'undefined') {
 
 module.exports = withLess({
   // cssModules: true,
+  target: 'serverless',
   lessLoaderOptions: {
     javascriptEnabled: true,
     modifyVars: themeVariables // make your antd custom effective
