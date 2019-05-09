@@ -86,6 +86,7 @@ export class Landing extends Component {
                 description='Subheading for call to action on the landing page'
               />
             </p>
+            <div class="searchBox">
             <Search
               placeholder="try 'launching rockets' "
               enterButton='Search'
@@ -93,6 +94,7 @@ export class Landing extends Component {
               // eslint-disable-next-line no-console
               onSearch={value => console.log(value)}
             />
+            </div>
             <br /><br />
             <Button type='primary' shape='round' size='large' >
               <FormattedMessage
